@@ -28,8 +28,8 @@
     <Cell  @click="onCellClick(8,$event)" v-bind:n="n" :isfinish="isfinish"/>
   </div>
   <div class="footer">
-    <span v-if="isfinish">{{result}}胜利</span>
-    <div v-if="even">{{even}}</div>
+    <span v-if="isfinish">结果:{{result}}胜利</span>
+    <div v-if="even">结果:{{even}}</div>
   </div>
  </div>
 </div>
@@ -104,6 +104,7 @@ export default {
       this.result = null;
       this.n = 0;
       this.isfinish = false;
+      this.even=null
     }
   }
 };
@@ -127,6 +128,6 @@ export default {
 }
 .footer{
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 </style>

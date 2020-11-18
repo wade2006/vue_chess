@@ -1,1 +1,0 @@
-.cell{border:1px solid #000;width:100px;height:100px;justify-content:center;align-items:center;font-size:80px}.cell,.row{display:flex}.wrap{justify-content:center;flex-direction:column}.control,.wrap{display:flex;align-items:center}.control{justify-content:space-between;width:310px;margin-bottom:5px}.footer{text-align:center;font-size:25px}
